@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SingleResponsibility;
+
+CEmpleado empleado = new CEmpleado("Hector", "Programador", 25, 10000);
+
+Console.WriteLine(empleado);
+Console.WriteLine(CHacienda.CalcularImpuesto(empleado));
+CHacienda.PagarImpuesto(empleado);

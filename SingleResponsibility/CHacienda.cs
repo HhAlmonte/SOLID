@@ -4,7 +4,7 @@
     {
         // Se debe crear una clase especializada para la otra responsabilidad
         // Ahora cada clase cuenta con una sola responsabilidad
-        
+
         public static double CalcularImpuesto(CEmpleado cEmpleado)
         {
             return cEmpleado.Salario * 0.35;
