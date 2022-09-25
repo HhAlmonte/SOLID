@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{5CEF81CE-8FCC-4DA5-905F-B8F7CC38EC4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{263B0392-AB5B-444C-9989-CA8CF567420F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedRefactor", "OpenClosedRefactor\OpenClosedRefactor.csproj", "{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5CEF81CE-8FCC-4DA5-905F-B8F7CC38EC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CEF81CE-8FCC-4DA5-905F-B8F7CC38EC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CEF81CE-8FCC-4DA5-905F-B8F7CC38EC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263B0392-AB5B-444C-9989-CA8CF567420F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263B0392-AB5B-444C-9989-CA8CF567420F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263B0392-AB5B-444C-9989-CA8CF567420F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263B0392-AB5B-444C-9989-CA8CF567420F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
