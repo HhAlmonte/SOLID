@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskov", "Liskov\Liskov.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovRefactor", "LiskovRefactor\LiskovRefactor.csproj", "{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegragation\InterfaceSegregation.csproj", "{6A363F1F-0B56-4345-BC54-0D705BB09899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationRefactor", "InterfaceSegregationRefactor\InterfaceSegregationRefactor.csproj", "{24D38496-E2B0-42E2-A12F-3F43246DA317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A363F1F-0B56-4345-BC54-0D705BB09899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A363F1F-0B56-4345-BC54-0D705BB09899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A363F1F-0B56-4345-BC54-0D705BB09899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A363F1F-0B56-4345-BC54-0D705BB09899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
