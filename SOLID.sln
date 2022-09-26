@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedRefactor", "OpenClosedRefactor\OpenClosedRefactor.csproj", "{F49A6E5F-14AB-4A49-A892-6EBEC0F69A10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskov", "Liskov\Liskov.csproj", "{DA0515EC-4E51-4DC7-9981-38B18483CA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liskov", "Liskov\Liskov.csproj", "{DA0515EC-4E51-4DC7-9981-38B18483CA91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovRefactor", "LiskovRefactor\LiskovRefactor.csproj", "{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovRefactor", "LiskovRefactor\LiskovRefactor.csproj", "{AA15B61D-FD27-4F6C-B921-65AFB8135CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegragation\InterfaceSegregation.csproj", "{6A363F1F-0B56-4345-BC54-0D705BB09899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "InterfaceSegragation\InterfaceSegregation.csproj", "{6A363F1F-0B56-4345-BC54-0D705BB09899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationRefactor", "InterfaceSegregationRefactor\InterfaceSegregationRefactor.csproj", "{24D38496-E2B0-42E2-A12F-3F43246DA317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationRefactor", "InterfaceSegregationRefactor\InterfaceSegregationRefactor.csproj", "{24D38496-E2B0-42E2-A12F-3F43246DA317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{3BDBC08B-811F-4E8A-9E95-F27189F08A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependecyInversionRefactor", "DependecyInversionRefactor\DependecyInversionRefactor.csproj", "{9A795144-E822-4384-B067-BC6AF9677C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24D38496-E2B0-42E2-A12F-3F43246DA317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDBC08B-811F-4E8A-9E95-F27189F08A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDBC08B-811F-4E8A-9E95-F27189F08A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDBC08B-811F-4E8A-9E95-F27189F08A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDBC08B-811F-4E8A-9E95-F27189F08A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A795144-E822-4384-B067-BC6AF9677C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A795144-E822-4384-B067-BC6AF9677C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A795144-E822-4384-B067-BC6AF9677C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A795144-E822-4384-B067-BC6AF9677C73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
