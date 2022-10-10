@@ -8,8 +8,8 @@
   
 <h3> Acronimo </h3>
 
-  * <strong>S:</strong> principio de responsabilidad única
-  * <strong>O:</strong> principio Open/Closed
+  * <strong>S:</strong> Single Responsibility Principle (SRP)
+  * <strong>O:</strong> Open/Closed Principle (OCP)
   * <strong>L:</strong> principio de sustitución
   * <strong>I:</strong> principio de segregación de interfaces
   * <strong>D:</strong> principio de inversión de dependencias
